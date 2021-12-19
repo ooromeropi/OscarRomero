@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+        <!--desde el head vinculamos el archivo css con la etiqueta link-->
+        <link rel="stylesheet" href="./css/estilos.css">
+        <link rel="stylesheet" href="./css/menu.css">
+</head>
+<body>
+    
+<!--iniciamos el menu de la pagina con la etiqueta nav-->
+
+    
+<nav>
+    <!--con la etiqueta ul creamos listas-->  
+    <ul class="menu">
+        <!--el li son las opciones de la lista siempre va dentro de un ul-->
+        <li class="logo"> 
+            <!--la etiqueta "a" se utiliza para crear un enlace como llamar una pagina web-->
+            <!--el href me direcciona hacia una ruta o una carpeta-->
+            <a href="#">
+                <!--agregar imagnes con la etiqueta img, es una de las etiquetas que no se cierra, src para cargar un archivo , alt para posicionar una pagina en la red-->
+                <img src="./img/las_7_maravillas_del_mundo.png" alt="">
+            </a>
+
+
+        </li>
+         
+        <li Class="Inicio">
+            <a href="./idenx.html">Inicio</a>
+
+        </li>
+          
+     
+        
+    </ul>
+
+
+</nav>
+
+    <div class="container">
+      <h1>Las 7 Maravillas del Mundo</h1>
+    
+       <div>
+             <form>
+                 <section class="section-flex">
+                        <article class="element-form">
+                            <div class="label">
+                                <label for="">Informacion</label>
+                            </div>
+                            <select name="Informacion" id="Informacion">
+                                <option value="-">Seleccione una opcion</option>
+                                <option value="1">Turismo</option>
+                                <option value="2">Temporadas</option>
+                                <option value="3">Hoteles</option>
+                                <option value="4">Gastronomia</option>
+
+                            </select>
+
+                        </article>
+
+                        <article class="element-form">
+                            <div class="label">
+                                  <label for="">Nombres</label>
+                            </div>
+                            <input type="text" name="Nombres" id="Nombres" placeholder="Ingresa tu nombre completo">
+                        </article>
+
+                        <article class="element-form">
+                            <div class="label">
+                                  <label for="">Correo</label>
+                            </div>
+                            <input type="text" name="Correo" id="Correo" placeholder="Ingresar correo electronico">
+                        </article>
+
+                        <article class="element-form">
+                            <div class="label">
+                                  <label for="">Numero de Contacto</label>
+                            </div>
+                            <input type="text" name="NumContacto" id="NumContacto" placeholder="Ingresar numero de contacto">
+                        </article>
+
+                        <article class="element-form">
+                            <div class="label">
+                                  <label for="">Edad</label>
+                            </div>
+                          <input type="number" name="Edad" id="Edad">
+                        </article>
+
+                        <article class="element-form">
+                            <div class="label">
+                                  <label for="">Comentarios</label>
+                            </div>
+                           <textarea name="Comentarios" id="Comentarios" cols="30" rows="10"></textarea>
+                        </article>
+
+                        <article class="btn-article">
+                            <button type="submit" onclick="enviar()">Enviar</button>
+                        </article>
+
+                 </section>
+             </form>
+        </div>
+
+    </div>
+
+
+<!--el footer es para crear el pie de pagina-->
+<footer>
+    <p>Creado por Oscar Romero</p>
+</footer>
+
+   <script src="./js/javascript.js"></script>
+
+</body>
+</html>

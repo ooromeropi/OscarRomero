@@ -1,0 +1,87 @@
+main {
+    margin-left: 2%;
+    margin-right: 2%;
+    margin-top: 2%; 
+    
+}
+
+h1,
+h2 {
+   text-align: center;
+   font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+
+.section-flex{
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+.character {
+    
+    margin: 1%;
+    border: 2px #DCF5A6 solid;
+    border-radius: 5px;
+    text-align: center;
+}
+
+
+.info-character {
+    text-align: justify;
+    padding: 3%;
+}
+
+.character img {
+    width: 90%;
+    border-radius: 3%;
+}
+
+
+footer {
+    background-color: black;
+    color: blanchedalmond;
+    height: 80px;
+    text-align: center;
+ 
+}
+
+footer p {
+    padding-top: 2%;
+}
+
+
+form {
+    width: 95%;
+    margin-top: 2%;
+    margin-left: 2%;
+    margin-right: 2%;
+    margin-bottom: 2%;
+    border: 2px black  solid;
+}
+
+.element-form {
+    margin-top: 2%;
+    width: 100%;
+}
+
+
+.btn-article {
+    margin-top: 2%;
+    width: 100%;
+    border-radius: 5px;
+}
+
+.label {
+    width: 20%;
+    float: left;
+}
+
+.element-form input,select {
+    width: 70%;
+    height: 30px;
+}
+
+.btn-article button {
+    border-radius: 5px;
+}

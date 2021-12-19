@@ -1,0 +1,47 @@
+* {
+  margin: 0;
+  padding: 0%;  
+}
+
+nav{
+   background-color:black ;
+   color: red;
+  }
+
+.menu{
+   display: flex;
+   align-items: center;
+ }  
+
+.menu li {
+   width: 20%;
+   list-style: none;
+}
+
+.menu a {
+   color: yellow;
+   font-family: Arial, Helvetica, sans-serif;
+   text-decoration: none;
+
+}
+
+
+.Contactenos:hover,
+.Inicio:hover
+{
+    background-color: black;
+    font-size: xx-large;
+    border-radius: 3px;
+    
+    
+   
+}
+
+.logo {
+    flex-grow: 3;
+}
+
+.logo img {
+    width: 10%;
+    padding: 1% 2% 1% 5%;
+}
